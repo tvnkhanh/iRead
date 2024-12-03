@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".FragmentTrangChu.AddChapterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etChapterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Tên/Tiêu đề Chương"
+            android:inputType="text"
+            android:textColor="@color/light_green"
+            android:textColorHint="@color/light_green"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etChapterIndex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:fadeScrollbars="true"
+            android:gravity="center_horizontal|top"
+            android:hint="Chương này là chương thứ mấy?"
+            android:inputType="number"
+            android:maxHeight="200dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/content_white"
+            android:textColorHint="@color/content_white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etChapterDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="200dp"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:fadeScrollbars="true"
+            android:gravity="center_horizontal|top"
+            android:hint="Nhập Mô Tả"
+            android:inputType="textMultiLine|textLongMessage"
+            android:scrollbars="vertical"
+            android:textColor="@color/content_white"
+            android:textColorHint="@color/content_white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etChapterContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxHeight="450dp"
+            android:layout_margin="8dp"
+            android:ems="10"
+            android:fadeScrollbars="true"
+            android:gravity="center_horizontal|top"
+            android:hint="Nhập Nội Dung"
+            android:inputType="textMultiLine|textLongMessage"
+            android:scrollbars="vertical"
+            android:textColor="@color/content_white"
+            android:textColorHint="@color/content_white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnChapterSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/dark_green"
+                android:gravity="center"
+                android:text="Lưu"
+                android:textSize="20sp"
+                android:textColor="@color/light_green"/>
+
+            <Button
+                android:id="@+id/btnChapterCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:backgroundTint="@color/dark_green"
+                android:gravity="center"
+                android:text="Hủy"
+                android:textSize="20sp"
+                android:textColor="@color/light_green"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

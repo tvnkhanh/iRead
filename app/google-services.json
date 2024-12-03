@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "317469982910",
+    "project_id": "book-reader-app-3359e",
+    "storage_bucket": "book-reader-app-3359e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317469982910:android:b60eb54e87bbe085e9deef",
+        "android_client_info": {
+          "package_name": "com.example.doctruyen_iread"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm4k9W0QUJfjhTW7QMNjpeipC9uBdaXeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317469982910:android:499b8902c06f44e6e9deef",
+        "android_client_info": {
+          "package_name": "ptit.tvnkhanh.book_reader_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm4k9W0QUJfjhTW7QMNjpeipC9uBdaXeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
